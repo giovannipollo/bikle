@@ -939,8 +939,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
       }]), t
   }(c(HTMLElement));
   customElements.define("game-toast", Ea);
-  var Aa = ["letta", "renzi", "lotti", "madia", "conte", "monti", "malan", "craxi", "bossi", "segre", "conte", "cerno", "crimi", "leone", "segni", "prodi", "raggi", "bindi", "nenni", "razzi"],
-      La = ["monti", "scoma", "leone", "nenni", "segni", "prodi", "raggi", "razzi", "bindi", "sasso", "liuni", "tasso", "nitti", "raffa", "boldi", "bondi", "curro", "pella", "nappi", "turri", "delia", "nardi", "bella", "frate", "billi", "ferro", "iorio", "gadda", "colla", "tateo", "lepri", "sisto", "sensi", "iezzi", "spena", "corda", "sorte", "penna", "mauri", "tucci", "costa", "lapia", "sarti", "menga", "ferri", "nesci", "tondo", "paxia", "fiano", "donno", "volpi", "braga", "torto", "trano", "vazio", "scanu", "silli", "galli", "berti", "rosso", "flati", "rotta", "bordo", "russo", "rossi", "butti", "dinca", "sutto", "marin", "gallo", "mammi", "sarli", "vinci", "vacca", "sapia", "madia", "siani", "manca", "bruno", "dieni", "ciaga", "manzo", "conte", "paita", "sarro", "rospi", "longo", "aprea", "marti", "doria", "rossi","manca","porta", "segre", "donno", "rauti", "drago", "vanin", "ortis", "cantu", "piano", "monti", "lanzi", "fusco", "romeo", "renzi", "morra", "turco", "botto", "lezzi", "iwobi", "pesco", "leone", "merlo", "faggi", "pirro", "cario", "cerno", "bossi", "abate", "craxi", "ferro", "crimi", "tesei", "marin", "malan", "zanda", "moles", "rampi", "corti"],
+  var Aa = ["berna", "rogli"],
+      La = ["berna", "rogli", "valva"],
       Ta = "present",
       Ia = "correct",
       Ca = "absent";
