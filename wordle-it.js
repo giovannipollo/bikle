@@ -1044,7 +1044,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   var Qa = "IN_PROGRESS",
       Za = "WIN",
       es = "FAIL",
-      as = ["Vabbeh questa è fortuna", "Meglio del Presidente della Repubblica!", "Ma chi sei? Damilano?", "Ottimo", "Non male", "Per un soffio!"],
+      as = ["Bravissimo", "Meglio di Riccardo Magrini", "Ma chi sei? Cauz?", "Bravo", "Motico", "Proprio all'ultimo!"],
       ss = function(e) {
           n(t, e);
           var a = h(t);
