@@ -1452,7 +1452,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     var Qa = "IN_PROGRESS",
         Za = "WIN",
         es = "FAIL",
-        as = ["Bravissimo", "Meglio di Riccardo Magrini", "Ma chi sei? Cauz?", "Bravo", "Motico", "Proprio all'ultimo!"],
+        as = ["Bravissimo", "Meglio di Riccardo Magrini", "Ma chi sei? Cauz?", "Bravo", "Mitico", "Proprio all'ultimo!"],
         ss = function (e) {
             n(t, e);
             var a = h(t);
