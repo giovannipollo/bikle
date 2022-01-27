@@ -1,4 +1,4 @@
-Cycle è un clone (non ufficiale, ovviamente) di Wordle, l'ipnotico gioco enigmistico in cui bisogna indovinare ua parola di 5 lettere in 6 tentativi. A differenza di Wordle, Cycle non usa le parole del dizionario ma i cognomi dei ciclisti!
+BIKLE è un clone (non ufficiale, ovviamente) di Wordle, l'ipnotico gioco enigmistico in cui bisogna indovinare ua parola di 5 lettere in 6 tentativi. A differenza di Wordle, BIKLE non usa le parole del dizionario ma i cognomi dei ciclisti!
 
 Insomma, si tratta di un gioco per fanatici di ciclismo.
 

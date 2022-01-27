@@ -1,6 +1,6 @@
 {
-  "short_name": "Cycle",
-  "name": "Cycle Wordle",
+  "short_name": "BIKLE",
+  "name": "BIKLE Wordle",
   "icons": [
     {
       "src": "/images/parle_logo_48x48.png",
@@ -42,5 +42,5 @@
   "background_color": "#6aaa64",
   "display": "standalone",
   "theme_color": "#6aaa64",
-  "description": "Kasta - Tipo Worldle, ma sui politici"
+  "description": "BIKLE - Tipo Worldle, ma sui ciclisti"
 }
