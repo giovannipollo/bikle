@@ -5,6 +5,7 @@ Insomma, si tratta di un gioco per fanatici di ciclismo.
 Per poterlo creare ho utilizzato il codice sviluppato da Pietro Peterlongo e di Mauro Munafo, autori di due versioni italiane di Wordle, #Par🇮🇹le e #Kasta
 
 https://pietroppeter.github.io/wordle-it/
+
 https://mauromunafo.github.io/
 
 Ovviamente si tratta di un progetto solo per divertirsi e senza alcuno scopo di lucro. Qui c'è il link al Wordle originale
