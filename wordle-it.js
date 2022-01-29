@@ -1842,7 +1842,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 r = e.isWin,
                                 n = JSON.parse(window.localStorage.getItem(j)),
                                 i = JSON.parse(window.localStorage.getItem(S)),
-                                l = "BIKLE 🚲 - Il wordle del ciclismo by @ciclismoliquido. Gioca anche tu qui https://bit.ly/3rLK5Is - Oggi io ho fatto";
+                                l = "BIKLE 🚲 - Il wordle del ciclismo by @ciclismoliquido. Gioca anche tu qui https://bit.ly/bikle - Oggi io ho fatto";
                             l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
                             var d = "";
                             return a.forEach((function (e) {
