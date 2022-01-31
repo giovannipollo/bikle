@@ -3380,7 +3380,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 n = JSON.parse(window.localStorage.getItem(j)),
                                 i = JSON.parse(window.localStorage.getItem(S)),
                                 current = s + 1,
-                                l = "BIKLE 🚲 - A wordle-like game by @ciclismoliquido. Play here https://bit.ly/bidon-bikle - My results today: Bikle " + current + "";
+                                l = "BIKLE 🚲 - A wordle-like game by @ciclismoliquido. Play here bit.ly/bidon-bikle - My results today: Bikle " + current + "";
                             l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
                             var d = "";
                             return a.forEach((function (e) {
