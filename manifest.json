@@ -3,37 +3,37 @@
   "name": "BIKLE Wordle",
   "icons": [
     {
-      "src": "/images/parle_logo_48x48.png",
+      "src": "/images/Bikle_favicon_48x48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/images/parle_logo_72x72.png",
+      "src": "/images/Bikle_favicon_72x72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/images/parle_logo_96x96.png",
+      "src": "/images/Bikle_favicon_96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/images/parle_logo_144x144.png",
+      "src": "/images/Bikle_favicon_144x144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/images/parle_logo_168x168.png",
+      "src": "/images/Bikle_favicon_168x168.png",
       "type": "image/png",
       "sizes": "168x168"
     },
     {
-      "src": "/images/parle_logo_192x192.png",
+      "src": "/images/Bikle_favicon_192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/parle_logo_512x512.png",
+      "src": "/images/Bikle_favicon_512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -42,5 +42,5 @@
   "background_color": "#6aaa64",
   "display": "standalone",
   "theme_color": "#6aaa64",
-  "description": "BIKLE - Tipo Worldle, ma sui ciclisti"
+  "description": "BIKLE - Like Worldle, "
 }
