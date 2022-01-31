@@ -939,7 +939,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
         }]), t
     }(c(HTMLElement));
     customElements.define("game-toast", Ea);
-    var Aa = ["bugno",
+    var Aa = ["moser",
         "voigt",
         "blaak",
         "mader",
@@ -970,7 +970,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
         "sagan",
         "boaro",
         "obree",
-        "moser",
+        "bugno",
         "padun",
         "volpi",
         "nazon",
@@ -3379,7 +3379,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 r = e.isWin,
                                 n = JSON.parse(window.localStorage.getItem(j)),
                                 i = JSON.parse(window.localStorage.getItem(S)),
-                                l = "BIKLE 🚲 - The wordle-like game for cycling fans by @ciclismoliquido. Play here https://bit.ly/bidon-bikle - My results today";
+                                current = s + 1,
+                                l = "BIKLE 🚲 - The wordle-like game for cycling fans by @ciclismoliquido. Play here https://bit.ly/bidon-bikle - My results today: Bikle " + current + "";
                             l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
                             var d = "";
                             return a.forEach((function (e) {
