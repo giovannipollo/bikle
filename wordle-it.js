@@ -939,8 +939,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
         }]), t
     }(c(HTMLElement));
     customElements.define("game-toast", Ea);
-    var Aa = ["testt",
-        "bugno",
+    var Aa = ["bugno",
         "voigt",
         "blaak",
         "mader",
@@ -3017,7 +3016,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                     if (5 === this.tileIndex && !(this.rowIndex >= 6)) {
                         var e, a = this.$board.querySelectorAll("game-row")[this.rowIndex],
                             s = this.boardState[this.rowIndex];
-                        if (e = s, !La.includes(e) && !Aa.includes(e)) return a.setAttribute("invalid", ""), void this.addToast("Non c'è un ciclista con questo cognome (almeno tra quelli fino a ora inseriti nel gioco)");
+                        if (e = s, !La.includes(e) && !Aa.includes(e)) return a.setAttribute("invalid", ""), void this.addToast("There is not a cyclist with this name (at least among the ones of the current database)");
                         if (this.hardMode) {
                             var t = function (e, a, s) {
                                 if (!e || !a || !s) return {
@@ -3104,7 +3103,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                 key: "submitGuess",
                 value: function () {
                     if (this.gameStatus === Qa && this.canInput) {
-                        if (5 !== this.tileIndex) return this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("invalid", ""), void this.addToast("Non abbastanza lettere");
+                        if (5 !== this.tileIndex) return this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("invalid", ""), void this.addToast("Not enough letters");
                         this.evaluateRow()
                     }
                 }
@@ -3380,7 +3379,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 r = e.isWin,
                                 n = JSON.parse(window.localStorage.getItem(j)),
                                 i = JSON.parse(window.localStorage.getItem(S)),
-                                l = "BIKLE 🚲 - The wordle-like game for ciclyng fans by Bidon (https://www.bidonmagazine.org/). Play here https://bit.ly/bidon-bikle - My results today";
+                                l = "BIKLE 🚲 - The wordle-like game for ciclyng fans by @ciclismoliquido (https://www.bidonmagazine.org/). Play here https://bit.ly/bidon-bikle - My results today";
                             l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
                             var d = "";
                             return a.forEach((function (e) {
@@ -3462,7 +3461,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     }(c(HTMLElement));
     customElements.define("game-switch", bs);
     var fs = document.createElement("template");
-    fs.innerHTML = '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .examples {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  .example {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the names of <strong>cyclists</strong> among among recent and contemporary pro riders or the champions of the past.</p>\n      <p>BIKLE is a modified (unofficial) of <a href="https://powerlanguage.co.uk/wordle/">WORDLE</a> and of its italian versions <a href="https://pietroppeter.github.io/wordle-it/">PAROLE</a> and <a href="https://mauromunafo.github.io/">KASTA</a> of which it takes the code, modified for cycling fans!</p>\n      <p>After each guess, the color of the tiles will change to show how close your guess was to the name.</p>\n      <div class="examples">\n        <div class="example">\n          <div class="row">\n            <game-tile letter="c" evaluation="correct" reveal></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="p"></game-tile>\n            <game-tile letter="p"></game-tile>\n            <game-tile letter="i"></game-tile>\n          </div>\n          <p>The letter <strong>C</strong> is in the word and in the correct spot.</p>\n        </div>\n        <div class="example">\n          <div class="row">\n            <game-tile letter="b"></game-tile>\n                 <game-tile letter="r" evaluation="present" reveal></game-tile>\n       <game-tile letter="a"></game-tile>\n             <game-tile letter="n"></game-tile>\n            <game-tile letter="d"></game-tile>\n          </div>\n          <p>The letter <strong>R</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="example">\n          <div class="row">\n            <game-tile letter="z"></game-tile>\n            <game-tile letter="h"></game-tile>\n                     <game-tile letter="u" evaluation="absent" reveal></game-tile>\n    <game-tile letter="p"></game-tile>\n          <game-tile letter="a"></game-tile>\n          </div>\n          <p>The letter <strong>U</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p>Come back tomorrow, too: a new <strong>BIKLE</strong> will be available each day!</p>\n   <p>Created by <a href="http://bidonmagazine.org/what-is-bidon"><strong>Bidon</strong></a> </a>  </p>\n   </div>\n  </section>\n';
+    fs.innerHTML = '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .examples {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n         .end {\n    border-bottom: 1px solid var(--color-tone-4);\n } .example {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the names of <strong>cyclists</strong> among recent and contemporary pro riders or the champions of the past. You have to guess a 5 letters surname of a cyclist, in 6 tries. </p>\n      <p>BIKLE is a modified (unofficial) of <a href="https://powerlanguage.co.uk/wordle/">WORDLE</a> and of its italian versions <a href="https://pietroppeter.github.io/wordle-it/">PAROLE</a> and <a href="https://mauromunafo.github.io/">KASTA</a> (of which it takes part of the code), created by <a href="http://bidonmagazine.org/what-is-bidon"><strong>Bidon</strong></a> </a> and modified for cycling fans!</p>\n      <p>After each guess, the color of the tiles will change to show how close your guess was to the name.</p>\n      <div class="examples">\n        <div class="example">\n          <div class="row">\n            <game-tile letter="c" evaluation="correct" reveal></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="p"></game-tile>\n            <game-tile letter="p"></game-tile>\n            <game-tile letter="i"></game-tile>\n          </div>\n          <p>The letter <strong>C</strong> is in the word and in the correct spot.</p>\n        </div>\n        <div class="example">\n          <div class="row">\n            <game-tile letter="b"></game-tile>\n                 <game-tile letter="r" evaluation="present" reveal></game-tile>\n       <game-tile letter="a"></game-tile>\n             <game-tile letter="n"></game-tile>\n            <game-tile letter="d"></game-tile>\n          </div>\n          <p>The letter <strong>R</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="example">\n          <div class="row">\n            <game-tile letter="z"></game-tile>\n            <game-tile letter="h"></game-tile>\n                     <game-tile letter="u" evaluation="absent" reveal></game-tile>\n    <game-tile letter="p"></game-tile>\n          <game-tile letter="a"></game-tile>\n         </div>\n   </div>\n     <p>The letter <strong>U</strong> is not in the word in any spot.</p>\n     </div>\n     <div class="end">  <p>Come back tomorrow, too: a new <strong>BIKLE</strong> will be available each day!</p>\n   </div>\n    <p> <a href="http://bidonmagazine.org/bikle-intro"><strong>ISTRUZIONI IN ITALIANO</strong></a> </p>\n  </div>\n  </section>\n';
     var ks = function (e) {
         n(t, e);
         var a = h(t);
