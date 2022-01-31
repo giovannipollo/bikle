@@ -1,15 +1,15 @@
-BIKLE è un clone (non ufficiale, ovviamente) di Wordle, l'ipnotico gioco enigmistico in cui bisogna indovinare ua parola di 5 lettere in 6 tentativi. A differenza di Wordle, BIKLE non usa le parole del dizionario ma i cognomi dei ciclisti!
+BIKLE is a modified (unofficial) version of Wordle, the enigmistic game in which you have to guess a word of 5 letters in 6 tries. Differently from Wordle, BIKLE uses surnames of cyclists. 
 
-Insomma, si tratta di un gioco per fanatici di ciclismo.
+It's a game for cycling fans.
 
-Il sito è raggiungibile al link https://giop98.github.io/cycle/
+The link of the website is: https://giop98.github.io/bikle/
 
-Per poterlo creare ho utilizzato il codice sviluppato da Pietro Peterlongo e di Mauro Munafo, autori di due versioni italiane di Wordle, PAROLE e KASTA
+To create it, we used the code of Pietro Peterlongo and of Mauro Munafo, authors of PAROLE and KASTA.
 
 https://pietroppeter.github.io/wordle-it/
 
 https://mauromunafo.github.io/
 
-Ovviamente si tratta di un progetto solo per divertirsi e senza alcuno scopo di lucro. Qui c'è il link al Wordle originale
+The project is obviously for fun and it is non-profit. Here is the link of the origial Wordle:
 
 https://powerlanguage.co.uk/wordle/
