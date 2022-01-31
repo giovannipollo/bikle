@@ -2908,7 +2908,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                 }
         })), s
     }
-    var Ra = new Date("2022-02-01T00:00:00");
+    var Ra = new Date("2022-01-31T00:00:00");
 
     function $a(e, a) {
         var s = new Date(e),
