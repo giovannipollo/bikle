@@ -2,7 +2,7 @@ Cycle è un clone (non ufficiale, ovviamente) di Wordle, l'ipnotico gioco enigmi
 
 Insomma, si tratta di un gioco per fanatici di ciclismo.
 
-Il sito è raggiungibile al link https://giop98.github.io/cycle/
+Il sito è raggiungibile al link https://giop98.github.io/bikle/
 
 Per poterlo creare ho utilizzato il codice sviluppato da Pietro Peterlongo e di Mauro Munafo, autori di due versioni italiane di Wordle, PAROLE e KASTA
 
