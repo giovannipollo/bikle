@@ -3330,12 +3330,12 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     var ms = document.createElement("template");
     ms.innerHTML = '\n    <div class="graph-container">\n      <div class="guess"></div>\n      <div class="graph">\n        <div class="graph-bar">\n          <div class="num-guesses">\n        </div>\n      </div>\n      </div>\n    </div>\n';
     var hs = {
-        currentStreak: "Current Win streak",
-        maxStreak: "Max Win Streak",
-        winPercentage: "% Win",
-        gamesPlayed: "Games Played",
+        currentStreak: "Current Streak",
+        maxStreak: "Max Streak",
+        winPercentage: "Win %",
+        gamesPlayed: "Played",
         gamesWon: "Games Won",
-        averageGuesses: "Average Guesses"
+        averageGuesses: "Guess Distribution"
     },
         ys = function (e) {
             n(t, e);
