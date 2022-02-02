@@ -3026,7 +3026,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
     var Qa = "IN_PROGRESS",
         Za = "WIN",
         es = "FAIL",
-        as = ["Merckx the cannibal!", "Rainbow Jersey!", "Hors catégorie!", "Breakaway specialist!", "Gruppetto!", "Black Jersey!"],
+        as = ["Merckx the cannibal!", "Rainbow Jersey!", "Hors catégorie!", "Breakaway specialist!", "Gruppetto!", "Maglia Nera"],
         ss = function (e) {
             n(t, e);
             var a = h(t);
