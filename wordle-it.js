@@ -1282,6 +1282,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
             "barac",
             "barbe",
             "bares",
+            "baril",
             "baris",
             "barla",
             "barle",
@@ -2922,7 +2923,9 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
             "marit",
             "pajur",
             "verre",
-            "dauge",],
+            "dauge",
+            "vigie",
+            "lamon",],
         Ta = "present",
         Ia = "correct",
         Ca = "absent";
