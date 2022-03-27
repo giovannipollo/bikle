@@ -2929,6 +2929,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
             "noval",
             "colas",
             "otxoa",
+            "hodge",
             ],
         Ta = "present",
         Ia = "correct",
