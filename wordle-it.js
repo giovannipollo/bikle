@@ -1527,7 +1527,6 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
             "corra",
             "corsi",
             "corso",
-            "corte",
             "corti",
             "costa",
             "coste",
@@ -3425,7 +3424,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function (e) {
                                 n = JSON.parse(window.localStorage.getItem(j)),
                                 i = JSON.parse(window.localStorage.getItem(S)),
                                 current = s,
-                                l = "BIKLE 🚲 - A wordle-like game by @ciclismoliquido. My results today: Bikle " + current + "";
+                                l = "BIKLE 🚲 - A wordle-like game by Bidon - ciclismo allo stato liquido. My results today: Bikle " + current + "";
                             l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
                             var d = "";
                             return a.forEach((function (e) {
