@@ -2,7 +2,7 @@ BIKLE is a modified (unofficial) version of Wordle, the enigmistic game in which
 
 It's a game for cycling fans.
 
-The link of the website is: https://giop98.github.io/bikle/
+The link of the website is: https://giovannipollo.github.io/bikle/
 
 To create it, we used the code of Pietro Peterlongo and of Mauro Munafo, authors of PAROLE and KASTA.
 
